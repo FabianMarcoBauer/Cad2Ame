@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/CAD/gen" modelPluginID="CAD" modelName="CAD" updateClasspath="false"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0"
+    copyrightFields="false" operationReflection="true">
+  <foreignModel>CAD.ecore</foreignModel>
+  <genPackages prefix="CAD" disposableProviderFactory="true" ecorePackage="platform:/plugin/CAD/model/CAD.ecore#/">
+    <genClasses ecoreClass="platform:/plugin/CAD/model/CAD.ecore#//CADContainer">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/plugin/CAD/model/CAD.ecore#//CADContainer/primitives"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/plugin/CAD/model/CAD.ecore#//CADContainer/connections"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/CAD/model/CAD.ecore#//CADContainer/version"/>
+    </genClasses>
+    <genClasses ecoreClass="platform:/plugin/CAD/model/CAD.ecore#//CADPrimitive">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/CAD/model/CAD.ecore#//CADPrimitive/domainId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/CAD/model/CAD.ecore#//CADPrimitive/domainInstance"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/plugin/CAD/model/CAD.ecore#//CADPrimitive/ports"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/plugin/CAD/model/CAD.ecore#//CADPrimitive/parameters"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/plugin/CAD/model/CAD.ecore#//CADPrimitive/comment"/>
+    </genClasses>
+    <genClasses ecoreClass="platform:/plugin/CAD/model/CAD.ecore#//CADPrimitivePort">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/CAD/model/CAD.ecore#//CADPrimitivePort/xPosition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/CAD/model/CAD.ecore#//CADPrimitivePort/yPosition"/>
+    </genClasses>
+    <genClasses ecoreClass="platform:/plugin/CAD/model/CAD.ecore#//CADPrimitiveParameter">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/CAD/model/CAD.ecore#//CADPrimitiveParameter/unit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/plugin/CAD/model/CAD.ecore#//CADPrimitiveParameter/value"/>
+    </genClasses>
+    <genClasses ecoreClass="platform:/plugin/CAD/model/CAD.ecore#//CADPrimitiveComment"/>
+    <genClasses ecoreClass="platform:/plugin/CAD/model/CAD.ecore#//CADConnection">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/CAD/model/CAD.ecore#//CADConnection/firstPort"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/CAD/model/CAD.ecore#//CADConnection/secondPort"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="platform:/plugin/CAD/model/CAD.ecore#//CADEntry">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/CAD/model/CAD.ecore#//CADEntry/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/CAD/model/CAD.ecore#//CADEntry/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/CAD/model/CAD.ecore#//CADEntry/uId"/>
+    </genClasses>
+    <genClasses ecoreClass="platform:/plugin/CAD/model/CAD.ecore#//CADPrimitiveParameterValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/CAD/model/CAD.ecore#//CADPrimitiveParameterValue/value"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

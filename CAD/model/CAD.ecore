@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="CAD" nsURI="platform:/plugin/CAD/model/CAD.ecore" nsPrefix="CAD">
+  <eClassifiers xsi:type="ecore:EClass" name="CADContainer">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="primitives" upperBound="-1"
+        eType="#//CADPrimitive" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="connections" upperBound="-1"
+        eType="#//CADConnection" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="version" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CADPrimitive" eSuperTypes="#//CADEntry">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="domainId" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="domainInstance" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ports" upperBound="-1"
+        eType="#//CADPrimitivePort" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
+        eType="#//CADPrimitiveParameter" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="comment" lowerBound="1"
+        eType="#//CADPrimitiveComment" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CADPrimitivePort" eSuperTypes="#//CADEntry">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="xPosition" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="yPosition" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CADPrimitiveParameter" eSuperTypes="#//CADEntry">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="unit" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" eType="#//CADPrimitiveParameterValue"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CADPrimitiveComment"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CADConnection">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="firstPort" lowerBound="1"
+        eType="#//CADPrimitivePort"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="secondPort" lowerBound="1"
+        eType="#//CADPrimitivePort"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CADEntry" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="uId" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CADPrimitiveParameterValue">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+</ecore:EPackage>
