@@ -1,0 +1,57 @@
+// Add imports here
+#import "platform:/resource/CAD/model/CAD.ecore"
+#import "platform:/resource/org.emoflon.ame/model/generated/Language.ecore"
+
+#schema Cad2AmePiping
+
+#source {
+	CAD
+}
+
+#target {
+	language
+}
+
+#correspondence {
+	CadContainer2AmeModel {
+		#src->CADContainer
+		#trg->AMEModel
+	}
+
+	CadPrimitive2RelevantComponent{
+		#src->CADPrimitive
+		#trg->RelevantComponent
+	}
+
+	CadPrimitiveParameter2Parameter {
+		#src->CADPrimitiveParameter
+		#trg->Parameter
+	}
+
+	CadPrimitiveParameterValue2Parameter {
+		#src->CADPrimitiveParameterValue
+		#trg->Parameter
+	}
+
+	CadPrimitivePort2Port {
+		#src->CADPrimitivePort
+		#trg->Port
+	}
+
+	CadConnection2Connection {
+		#src->CADConnection
+		#trg->ConnectionWithLine
+	}
+}
+
+#attributeConditions {
+	#userDefined primitiveAttributesToComponentName(0:EString, 2:EInt, 3:EString){
+		#sync:BBB,BBF,BFB
+		#gen:BBB,BBF,BFB,BFF}
+
+	#userDefined portNumberToIdAndTitle(0:EInt, 1:EString, 2:EString) {
+		#sync:BFF,BBB
+		#gen:BFF,BBB}
+}
+
+

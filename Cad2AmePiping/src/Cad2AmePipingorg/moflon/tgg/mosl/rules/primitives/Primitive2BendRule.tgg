@@ -1,0 +1,27 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule Primitive2BendRule #extends Primitive2RelevantComponentRule #with Cad2AmePiping
+
+#source {
+	++primitive:CADPrimitive {
+		// id:="bend" // The attribute constraint problem of TGG rule Primitive2BendRule is not solvable! if not assigned in the attributeConditions.
+		title:="Bend"
+	}
+}
+
+#target {
+	++component:Bend {
+		
+	}
+}
+
+#correspondence {
+	
+}
+
+#attributeConditions {
+	eq("bend",primitive.id)
+}
+
+

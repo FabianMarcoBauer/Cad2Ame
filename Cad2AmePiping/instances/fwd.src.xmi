@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CAD:CADContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:CAD="platform:/plugin/CAD/model/CAD.ecore" version="15.0.0">
+  <primitives id="bend" title="Bend" uId="0" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port A" uId="0" xPosition="0.95308" yPosition="0.368931"/>
+    <ports id="port_b" title="Port B" uId="1" xPosition="0.967846" yPosition="0.516161"/>
+    <parameters id="cx_area_a" title="Cross-section area at port A" uId="0" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_a" title="Perimeter at port A" uId="1" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_a" title="Hydraulic diameter at port A" uId="2" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="cx_area_b" title="Cross-section area at port B" uId="3" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_b" title="Perimeter at port B" uId="4" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_b" title="Hydraulic diameter at port B" uId="5" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="curv_rad" title="Curvature radius" uId="6" unit="m">
+      <value value="0.0641618708729802"/>
+    </parameters>
+    <parameters id="cent_ang" title="Center angle" uId="7" unit="degree">
+      <value value="90"/>
+    </parameters>
+    <parameters id="w_thick" title="Wall thickness" uId="8" unit="m">
+      <value value="0"/>
+    </parameters>
+    <comment/>
+  </primitives>
+  <primitives id="t_junction" title="T-junction" uId="1" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port A" uId="0" xPosition="0.95308" yPosition="0.368931"/>
+    <ports id="port_b" title="Port B" uId="1" xPosition="0.907768" yPosition="0.211246"/>
+    <ports id="port_c" title="Port C" uId="2" xPosition="0.766908" yPosition="0.298995"/>
+    <parameters id="cx_area_a" title="Cross-section area at port A" uId="0" unit="m**2">
+      <value value="0.000706858347057704"/>
+    </parameters>
+    <parameters id="peri_a" title="Perimeter at port A" uId="1" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_a" title="Hydraulic diameter at port A" uId="2" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="cx_area_b" title="Cross-section area at port B" uId="3" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_b" title="Perimeter at port B" uId="4" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_b" title="Hydraulic diameter at port B" uId="5" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="cx_area_c" title="Cross-section area at port C" uId="6" unit="m**2">
+      <value value="0.000176714586764426"/>
+    </parameters>
+    <parameters id="peri_c" title="Perimeter at port C" uId="7" unit="m">
+      <value value="0.0471238898038469"/>
+    </parameters>
+    <parameters id="h_dia_c" title="Hydraulic diameter at port C" uId="8" unit="m">
+      <value value="0.015"/>
+    </parameters>
+    <parameters id="ang_ab" title="Angle between ports A and B" uId="9" unit="degree">
+      <value value="180"/>
+    </parameters>
+    <parameters id="ang_ac" title="Angle between ports A and C" uId="10" unit="degree">
+      <value value="90"/>
+    </parameters>
+    <parameters id="ang_bc" title="Angle between ports B and C" uId="11" unit="degree">
+      <value value="90"/>
+    </parameters>
+    <parameters id="int_vol" title="Internal volume" uId="12" unit="m**3">
+      <value value="0.000131082974848502"/>
+    </parameters>
+    <comment/>
+  </primitives>
+  <primitives id="pipe" title="Pipe" uId="2" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port A" uId="0" xPosition="0.967846" yPosition="0.516161"/>
+    <ports id="port_b" title="Port B" uId="1" xPosition="0.961594" yPosition="0.69732"/>
+    <parameters id="h_dia_a" title="Hydraulic diameter at port A" uId="0" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="cx_area_a" title="Cross-section area at port A" uId="1" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_a" title="Perimeter at port A" uId="2" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="cx_area_b" title="Cross-section area at port B" uId="3" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_b" title="Perimeter at port B" uId="4" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_b" title="Hydraulic diameter at port B" uId="5" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="len" title="Length" uId="6" unit="m">
+      <value value="0.13583812912702"/>
+    </parameters>
+    <parameters id="angle" title="Angle with horizontal" uId="7" unit="degree">
+      <value value="90"/>
+    </parameters>
+    <parameters id="w_thick" title="Wall thickness" uId="8" unit="m">
+      <value value="0"/>
+    </parameters>
+    <comment/>
+  </primitives>
+  <primitives id="pipe" title="Pipe" uId="3" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port A" uId="0" xPosition="0.384651" yPosition="0.100331"/>
+    <ports id="port_b" title="Port B" uId="1" xPosition="0.034649" yPosition="0.416655"/>
+    <parameters id="h_dia_a" title="Hydraulic diameter at port A" uId="0" unit="m">
+      <value value="0.0299827894428229"/>
+    </parameters>
+    <parameters id="cx_area_a" title="Cross-section area at port A" uId="1" unit="m**2">
+      <value value="0.000706452832857765"/>
+    </parameters>
+    <parameters id="peri_a" title="Perimeter at port A" uId="2" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="cx_area_b" title="Cross-section area at port B" uId="3" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_b" title="Perimeter at port B" uId="4" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_b" title="Hydraulic diameter at port B" uId="5" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="len" title="Length" uId="6" unit="m">
+      <value value="0.288018162725892"/>
+    </parameters>
+    <parameters id="angle" title="Angle with horizontal" uId="7" unit="degree">
+      <value value="38.7643248091024"/>
+    </parameters>
+    <parameters id="w_thick" title="Wall thickness" uId="8" unit="m">
+      <value value="0"/>
+    </parameters>
+    <comment/>
+  </primitives>
+  <primitives id="bend" title="Bend" uId="4" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port A" uId="0" xPosition="0.384651" yPosition="0.100331"/>
+    <ports id="port_b" title="Port B" uId="1" xPosition="0.466502" yPosition="0.0841"/>
+    <parameters id="cx_area_a" title="Cross-section area at port A" uId="0" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_a" title="Perimeter at port A" uId="1" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_a" title="Hydraulic diameter at port A" uId="2" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="cx_area_b" title="Cross-section area at port B" uId="3" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_b" title="Perimeter at port B" uId="4" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_b" title="Hydraulic diameter at port B" uId="5" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="curv_rad" title="Curvature radius" uId="6" unit="m">
+      <value value="0.0496708809555282"/>
+    </parameters>
+    <parameters id="cent_ang" title="Center angle" uId="7" unit="degree">
+      <value value="65.5526786290725"/>
+    </parameters>
+    <parameters id="w_thick" title="Wall thickness" uId="8" unit="m">
+      <value value="0"/>
+    </parameters>
+    <comment/>
+  </primitives>
+  <primitives id="bend" title="Bend" uId="5" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port A" uId="0" xPosition="0.614274" yPosition="0.149049"/>
+    <ports id="port_b" title="Port B" uId="1" xPosition="0.675759" yPosition="0.158683"/>
+    <parameters id="cx_area_a" title="Cross-section area at port A" uId="0" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_a" title="Perimeter at port A" uId="1" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_a" title="Hydraulic diameter at port A" uId="2" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="cx_area_b" title="Cross-section area at port B" uId="3" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_b" title="Perimeter at port B" uId="4" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_b" title="Hydraulic diameter at port B" uId="5" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="curv_rad" title="Curvature radius" uId="6" unit="m">
+      <value value="0.0499999999999991"/>
+    </parameters>
+    <parameters id="cent_ang" title="Center angle" uId="7" unit="degree">
+      <value value="44.9999999999944"/>
+    </parameters>
+    <parameters id="w_thick" title="Wall thickness" uId="8" unit="m">
+      <value value="0"/>
+    </parameters>
+    <comment/>
+  </primitives>
+  <primitives id="pipe" title="Pipe" uId="6" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port A" uId="0" xPosition="0.466502" yPosition="0.0841"/>
+    <ports id="port_b" title="Port B" uId="1" xPosition="0.614274" yPosition="0.149049"/>
+    <parameters id="h_dia_a" title="Hydraulic diameter at port A" uId="0" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="cx_area_a" title="Cross-section area at port A" uId="1" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_a" title="Perimeter at port A" uId="2" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="cx_area_b" title="Cross-section area at port B" uId="3" unit="m**2">
+      <value value="0.000706858347057704"/>
+    </parameters>
+    <parameters id="peri_b" title="Perimeter at port B" uId="4" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_b" title="Hydraulic diameter at port B" uId="5" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="len" title="Length" uId="6" unit="m">
+      <value value="0.109942206276773"/>
+    </parameters>
+    <parameters id="angle" title="Angle with horizontal" uId="7" unit="degree">
+      <value value="0"/>
+    </parameters>
+    <parameters id="w_thick" title="Wall thickness" uId="8" unit="m">
+      <value value="0"/>
+    </parameters>
+    <comment/>
+  </primitives>
+  <primitives id="pipe" title="Pipe" uId="7" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port A" uId="0" xPosition="0.675759" yPosition="0.158683"/>
+    <ports id="port_b" title="Port B" uId="1" xPosition="0.771364" yPosition="0.151293"/>
+    <parameters id="h_dia_a" title="Hydraulic diameter at port A" uId="0" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="cx_area_a" title="Cross-section area at port A" uId="1" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_a" title="Perimeter at port A" uId="2" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="cx_area_b" title="Cross-section area at port B" uId="3" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_b" title="Perimeter at port B" uId="4" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_b" title="Hydraulic diameter at port B" uId="5" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="len" title="Length" uId="6" unit="m">
+      <value value="0.0588452570752893"/>
+    </parameters>
+    <parameters id="angle" title="Angle with horizontal" uId="7" unit="degree">
+      <value value="0"/>
+    </parameters>
+    <parameters id="w_thick" title="Wall thickness" uId="8" unit="m">
+      <value value="0"/>
+    </parameters>
+    <comment/>
+  </primitives>
+  <primitives id="bend" title="Bend" uId="8" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port A" uId="0" xPosition="0.771364" yPosition="0.151293"/>
+    <ports id="port_b" title="Port B" uId="1" xPosition="0.907768" yPosition="0.211246"/>
+    <parameters id="cx_area_a" title="Cross-section area at port A" uId="0" unit="m**2">
+      <value value="0.000706858347057703"/>
+    </parameters>
+    <parameters id="peri_a" title="Perimeter at port A" uId="1" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_a" title="Hydraulic diameter at port A" uId="2" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="cx_area_b" title="Cross-section area at port B" uId="3" unit="m**2">
+      <value value="0.000706858347057704"/>
+    </parameters>
+    <parameters id="peri_b" title="Perimeter at port B" uId="4" unit="m">
+      <value value="0.0942477796076938"/>
+    </parameters>
+    <parameters id="h_dia_b" title="Hydraulic diameter at port B" uId="5" unit="m">
+      <value value="0.03"/>
+    </parameters>
+    <parameters id="curv_rad" title="Curvature radius" uId="6" unit="m">
+      <value value="0.0717600190294959"/>
+    </parameters>
+    <parameters id="cent_ang" title="Center angle" uId="7" unit="degree">
+      <value value="90"/>
+    </parameters>
+    <parameters id="w_thick" title="Wall thickness" uId="8" unit="m">
+      <value value="0"/>
+    </parameters>
+    <comment/>
+  </primitives>
+  <connections firstPort="//@primitives.7/@ports.0" secondPort="//@primitives.5/@ports.1"/>
+  <connections firstPort="//@primitives.5/@ports.0" secondPort="//@primitives.6/@ports.1"/>
+  <connections firstPort="//@primitives.0/@ports.0" secondPort="//@primitives.1/@ports.0"/>
+  <connections firstPort="//@primitives.0/@ports.1" secondPort="//@primitives.2/@ports.0"/>
+  <connections firstPort="//@primitives.4/@ports.1" secondPort="//@primitives.6/@ports.0"/>
+  <connections firstPort="//@primitives.4/@ports.0" secondPort="//@primitives.3/@ports.0"/>
+  <connections firstPort="//@primitives.8/@ports.0" secondPort="//@primitives.7/@ports.1"/>
+  <connections firstPort="//@primitives.8/@ports.1" secondPort="//@primitives.1/@ports.1"/>
+</CAD:CADContainer>

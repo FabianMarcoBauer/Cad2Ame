@@ -1,0 +1,66 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule ParameterRule #with Cad2AmePiping
+
+#source {
+	container:CADContainer {
+		-primitives -> primitive
+	}
+
+	primitive:CADPrimitive {
+		++ -parameters -> cadParameter
+	}
+
+	++cadParameter:CADPrimitiveParameter {
+		++ -value -> cadValue
+	}
+
+	++cadValue:CADPrimitiveParameterValue {
+		
+	}
+}
+
+#target {
+	model:AMEModel {
+		-lines -> component
+		++ -lines -> ameParameter
+	}
+
+	component:RelevantComponent {
+		
+	}
+
+	++ameParameter:Parameter {
+		++ -owner -> component
+	}
+}
+
+#correspondence {
+	c2m:CadContainer2AmeModel {
+		#src->container
+		#trg->model
+	}
+
+	p2c:CadPrimitive2RelevantComponent {
+		#src->primitive
+		#trg->component
+	}
+
+	++p2p:CadPrimitiveParameter2Parameter {
+		#src->cadParameter
+		#trg->ameParameter
+	}
+
+	++v2p:CadPrimitiveParameterValue2Parameter {
+		#src->cadValue
+		#trg->ameParameter
+	}
+}
+
+#attributeConditions {
+	eq(cadParameter.id, ameParameter.paramName)
+	eq(cadValue.value, ameParameter.value)
+}
+
+

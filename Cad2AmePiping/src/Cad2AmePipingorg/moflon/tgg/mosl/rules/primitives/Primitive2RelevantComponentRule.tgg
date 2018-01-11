@@ -1,0 +1,43 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#abstract #rule Primitive2RelevantComponentRule #with Cad2AmePiping
+
+#source {
+	container:CADContainer {
+		++ -primitives -> primitive
+	}
+
+	++primitive:CADPrimitive {
+		domainId:="fluid"
+		domainInstance:="1"
+	}
+}
+
+#target {
+	model:AMEModel {
+		++ -lines -> component
+	}
+
+	++component:RelevantComponent {
+		
+	}
+}
+
+#correspondence {
+	c2m:CadContainer2AmeModel {
+		#src->container
+		#trg->model
+	}
+	
+	++ p2c:CadPrimitive2RelevantComponent {
+		#src->primitive
+		#trg->component
+	}
+}
+
+#attributeConditions {
+	primitiveAttributesToComponentName(primitive.id, primitive.uId, component.name)
+}
+
+

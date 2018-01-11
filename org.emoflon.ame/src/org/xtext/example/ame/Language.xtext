@@ -1,0 +1,118 @@
+grammar org.emoflon.ame.Language
+
+generate language "platform:/plugin/org.emoflon.ame/model/generated/Language.ecore"
+import "http://www.eclipse.org/emf/2002/Ecore" as ecore
+
+AMEModel:
+	(lines+=Line)*;
+
+Line:
+	OtherCommand | AbstractComponent | AbstractConnection | Parameter | CloseAPI | CloseCircuit | GenerateCode;
+
+OtherCommand:
+	{OtherCommand} (text+=AME_OTHER) (text+=AME_OTHER)*;
+
+AbstractComponent:
+	IgnoredComponent | RelevantComponent;
+	
+RelevantComponent: Valve | PLMJack | Actuator | DisplacementSensor | Bend | TJunction | Pipe;
+
+IgnoredComponent:
+	OtherComponent | DynamicComponent
+;
+OtherComponent:
+	'AMEAddComponent' '(' "'" type=ID "'" ',' "'" name=ID "'" ',' coordiantes=COORDINATE ')';
+
+DynamicComponent:
+	'AMEAddDynamicComponent' '(' "'" type=ID "'" ',' "'" name=ID "'" ',' structure=STRUCTURE ',' coordiantes=COORDINATE ')';
+	
+Valve:
+	'AMEAddComponent' '(' "'" 'valve01' "'" ',' "'" name=ID "'" ',' coordiantes=COORDINATE ')';
+
+DisplacementSensor:
+	'AMEAddComponent' '(' "'" 'displacementsensor' "'" ',' "'" name=ID "'" ',' coordiantes=COORDINATE ')';
+
+PLMJack:
+	'AMEAddComponent' '(' "'" 'plmjack' "'" ',' "'" name=ID "'" ',' coordiantes=COORDINATE ')';
+	
+Actuator:
+	'AMEAddComponent' '(' "'" 'actuator001' "'" ',' "'" name=ID "'" ',' coordiantes=COORDINATE ')';
+
+//piping components
+Bend:
+	'AMEAddComponent' '(' "'" 'hrbend' "'" ',' "'" name=ID "'" ',' coordiantes=COORDINATE ')';
+TJunction:
+	'AMEAddComponent' '(' "'" 'hrtee90' "'" ',' "'" name=ID "'" ',' coordiantes=COORDINATE ')';
+Pipe:
+	'AMEAddComponent' '(' "'" 'hrpipe' "'" ',' "'" name=ID "'" ',' coordiantes=COORDINATE ')';
+
+AbstractConnection:
+	ConnectionWithLine | Connection;
+
+ConnectionWithLine:
+	'AMEConnectTwoPortsWithLine' '(' ports+=Port ',' ports+=Port ',' "'" name=ID "'" ',' route=ROUTE ')';
+
+Connection:
+	'AMEConnectTwoPorts' '(' ports+=Port ',' ports+=Port ')';
+	
+Port: 
+"'" owner=[AbstractComponent] "'" ',' number=NUMBER;
+
+Parameter:
+	'AMESetParameterValue' '(' "'" paramName=ID '@' owner=[AbstractComponent] "'" ',' "'" value=PARAMETER_VALUE "'"
+	')';
+	
+CloseCircuit:{CloseCircuit}
+	'AMECloseCircuit(True)'
+;
+
+CloseAPI:{CloseAPI}
+	'AMECloseAPI()'
+;
+
+GenerateCode:{GenerateCode}
+	'AMEGenerateCode()'
+;
+
+PARAMETER_VALUE:
+	(VARIABLE | OPERATION | NUMBER | FILE_NAME);
+
+OPERATION:
+	(VARIABLE | NUMBER) ('*' | '+' | '-') NUMBER;
+	
+COORDINATE:
+	'(' NUMBER ',' NUMBER ')'
+;
+
+ROUTE:
+	'(' COORDINATE (',' COORDINATE)* ')'
+;
+
+STRUCTURE:
+	NUMBER ',' NUMBER
+;
+
+FILE_NAME:
+	ID '.' ID
+;
+
+VARIABLE:
+	ID NUMBER
+;
+	
+
+terminal AME_OTHER:
+	('#' | 'import' | 'if' | 'try' | 'from' | 'except' | 'print' | 'AMEInitAPI' | 'AMECreateCircuit' |
+	'AMERotateComponent' | 'AMEMoveComponent' | 'AMEChangeSubmodel' | 'AMEFlipComponent' | 'AMEAddGlobalParameter' | 'AMESetRunParameter' | 'AMELockVariable' | 'AMESaveVariable')
+	!('\n' | '\r')* ('\r'? '\n')?;
+
+terminal ID:
+	'^'? ('a'..'z' | 'A'..'Z' | '_') ('a'..'z' | 'A'..'Z' | '_' | '0'..'9')*;
+
+terminal NUMBER:
+	('-')? ('0'..'9')+ ('.' ('0'..'9')+ ('e' ('+' | '-') ('0'..'9')+)?)?;
+
+terminal BEGIN: 'synthetic:BEGIN';  // increase indentation
+terminal END: 'synthetic:END';      // decrease indentation
+
+

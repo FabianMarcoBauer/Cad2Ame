@@ -1,0 +1,27 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule Primitive2TJunction #extends Primitive2RelevantComponentRule #with Cad2AmePiping
+
+#source { 
+	++primitive:CADPrimitive {
+		//id:="t_junction" // The attribute constraint problem of TGG rule Primitive2TJunction is not solvable! if not assigned in the attributeConditions.
+		title:="T-junction"
+	}
+}
+
+#target {
+	++component:TJunction {
+		
+	}
+}
+
+#correspondence {
+	
+}
+
+#attributeConditions {
+	eq("t_junction",primitive.id)
+}
+
+

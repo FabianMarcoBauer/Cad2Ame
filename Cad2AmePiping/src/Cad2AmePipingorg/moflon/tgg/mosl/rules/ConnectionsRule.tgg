@@ -1,0 +1,104 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule ConnectionsRule #with Cad2AmePiping
+
+#source { 
+	container:CADContainer {
+		-primitives -> primitive1
+		-primitives -> primitive2
+		++ - connections -> cadConnection
+	}
+	
+	primitive1:CADPrimitive {
+		++ -ports -> cadPort1
+	}
+	
+	primitive2:CADPrimitive {
+		++ -ports -> cadPort2
+	}
+	
+	++cadPort1:CADPrimitivePort {
+		
+	}
+	
+	++cadPort2:CADPrimitivePort {
+		
+	}
+	
+	++cadConnection:CADConnection {
+		++ -firstPort->cadPort1
+		++ -secondPort->cadPort2
+	}
+}
+
+#target {
+	model:AMEModel {
+		-lines->component1
+		-lines->component2
+		++ -lines -> ameConnection
+	}
+	
+	++ameConnection:ConnectionWithLine {
+		++ -ports->amePort1
+		++ -ports->amePort2
+	}
+	
+	component1:RelevantComponent {
+		
+	}
+	
+	component2:RelevantComponent {
+		
+	}
+	
+	++ amePort1:Port {
+		++ -owner->component1
+	}
+	
+	++ amePort2:Port {
+		++ -owner->component2
+	}
+	
+}
+
+#correspondence {
+	c2m:CadContainer2AmeModel {
+		#src->container
+		#trg->model
+	}
+	
+	p2c1:CadPrimitive2RelevantComponent {
+		#src->primitive1
+		#trg->component1
+	}
+	
+	p2c2:CadPrimitive2RelevantComponent {
+		#src->primitive2
+		#trg->component2
+	}
+	
+	++ p2p1:CadPrimitivePort2Port {
+		#src->cadPort1
+		#trg->amePort1
+	}
+	
+	++ p2p2:CadPrimitivePort2Port {
+		#src->cadPort2
+		#trg->amePort2
+	}
+	
+	++ p2p:CadConnection2Connection {
+		#src->cadConnection
+		#trg->ameConnection
+	}
+}
+
+#attributeConditions {
+	stringToInt(amePort1.number, p1Number)
+	stringToInt(amePort2.number, p2Number)
+	eq(cadPort1.uId, p1Number)
+	eq(cadPort2.uId, p2Number)
+	portNumberToIdAndTitle(p1Number,cadPort1.id, cadPort1.title)
+	portNumberToIdAndTitle(p2Number,cadPort2.id, cadPort2.title)
+}

@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.emoflon.ame
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.emoflon.ame; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib,
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.xtend.lib,
+ org.eclipse.emf.common
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.emoflon.ame,
+ org.emoflon.ame.serializer,
+ org.emoflon.ame.language.util,
+ org.emoflon.ame.parser.antlr.internal,
+ org.emoflon.ame.validation,
+ org.emoflon.ame.language,
+ org.emoflon.ame.parser.antlr.lexer,
+ org.emoflon.ame.generator,
+ org.emoflon.ame.language.impl,
+ org.emoflon.ame.parser.antlr,
+ org.emoflon.ame.scoping,
+ org.emoflon.ame.services
+Import-Package: org.apache.log4j

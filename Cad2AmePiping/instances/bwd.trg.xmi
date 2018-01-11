@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CAD:CADContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:CAD="platform:/plugin/CAD/model/CAD.ecore" version="15.0.0">
+  <primitives id="pipe" title="Pipe" uId="2" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port  A" uId="0"/>
+    <parameters id="diam">
+      <value value="2.99913947214110e+01"/>
+    </parameters>
+    <parameters id="ang">
+      <value value="0.00000000000000e+00"/>
+    </parameters>
+    <parameters id="method">
+      <value value="2"/>
+    </parameters>
+    <parameters id="vol2">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="emod">
+      <value value="2.06000000000000e+06"/>
+    </parameters>
+    <parameters id="beff">
+      <value value="8.00000000000000e+03"/>
+    </parameters>
+    <parameters id="t1">
+      <value value="2.00000000000000e+001"/>
+    </parameters>
+    <parameters id="thhuse">
+      <value value="1"/>
+    </parameters>
+    <parameters id="fi">
+      <value value="1"/>
+    </parameters>
+    <parameters id="xu1">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="aeropt">
+      <value value="1"/>
+    </parameters>
+    <parameters id="dvol2">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="kth">
+      <value value="0.00000000000000e+00"/>
+    </parameters>
+    <parameters id="le">
+      <value value="2.88018162725890e-01"/>
+    </parameters>
+    <parameters id="xg1">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="volexptype">
+      <value value="1"/>
+    </parameters>
+    <parameters id="extemp">
+      <value value="2.00000000000000e+01"/>
+    </parameters>
+    <parameters id="rr">
+      <value value="1.00000000000000e-05"/>
+    </parameters>
+    <parameters id="aerinit">
+      <value value="1"/>
+    </parameters>
+    <parameters id="p1">
+      <value value="1.00000000000000e+000"/>
+    </parameters>
+    <parameters id="bulkfluid">
+      <value value="1.70000000000000e+04"/>
+    </parameters>
+    <parameters id="bmwallfile">
+      <value/>
+    </parameters>
+    <parameters id="dvfile">
+      <value/>
+    </parameters>
+    <parameters id="thick">
+      <value value="0.00000000000000e+00"/>
+    </parameters>
+  </primitives>
+  <primitives id="pipe" title="Pipe" uId="1" domainId="fluid" domainInstance="1">
+    <ports id="port_b" title="Port  B" uId="1"/>
+    <ports id="port_a" title="Port  A" uId="0"/>
+    <parameters id="t1">
+      <value value="2.00000000000000e+001"/>
+    </parameters>
+    <parameters id="thhuse">
+      <value value="1"/>
+    </parameters>
+    <parameters id="method">
+      <value value="2"/>
+    </parameters>
+    <parameters id="volexptype">
+      <value value="1"/>
+    </parameters>
+    <parameters id="p1">
+      <value value="1.00000000000000e+000"/>
+    </parameters>
+    <parameters id="xg">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="aerinit">
+      <value value="1"/>
+    </parameters>
+    <parameters id="fi">
+      <value value="1"/>
+    </parameters>
+    <parameters id="diam">
+      <value value="3.00000000000000e+01"/>
+    </parameters>
+    <parameters id="dvfile">
+      <value/>
+    </parameters>
+    <parameters id="aeropt">
+      <value value="1"/>
+    </parameters>
+    <parameters id="beff">
+      <value value="8.00000000000000e+03"/>
+    </parameters>
+    <parameters id="emod">
+      <value value="2.06000000000000e+06"/>
+    </parameters>
+    <parameters id="kth">
+      <value value="0.00000000000000e+00"/>
+    </parameters>
+    <parameters id="extemp">
+      <value value="2.00000000000000e+01"/>
+    </parameters>
+    <parameters id="thick">
+      <value value="0.00000000000000e+00"/>
+    </parameters>
+    <parameters id="le">
+      <value value="1.09942206276770e-01"/>
+    </parameters>
+    <parameters id="xu">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="bmwallfile">
+      <value/>
+    </parameters>
+    <parameters id="bulkfluid">
+      <value value="1.70000000000000e+04"/>
+    </parameters>
+  </primitives>
+  <primitives id="pipe" title="Pipe" uId="0" domainId="fluid" domainInstance="1">
+    <ports id="port_b" title="Port  B" uId="1"/>
+    <ports id="port_a" title="Port  A" uId="0"/>
+    <parameters id="thhuse">
+      <value value="1"/>
+    </parameters>
+    <parameters id="extemp">
+      <value value="2.00000000000000e+01"/>
+    </parameters>
+    <parameters id="bulkfluid">
+      <value value="1.70000000000000e+04"/>
+    </parameters>
+    <parameters id="aeropt">
+      <value value="1"/>
+    </parameters>
+    <parameters id="xu">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="method">
+      <value value="2"/>
+    </parameters>
+    <parameters id="volexptype">
+      <value value="1"/>
+    </parameters>
+    <parameters id="p1">
+      <value value="1.00000000000000e+000"/>
+    </parameters>
+    <parameters id="xg">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="beff">
+      <value value="8.00000000000000e+03"/>
+    </parameters>
+    <parameters id="t1">
+      <value value="2.00000000000000e+001"/>
+    </parameters>
+    <parameters id="thick">
+      <value value="0.00000000000000e+00"/>
+    </parameters>
+    <parameters id="bmwallfile">
+      <value/>
+    </parameters>
+    <parameters id="aerinit">
+      <value value="1"/>
+    </parameters>
+    <parameters id="le">
+      <value value="5.88452570752890e-02"/>
+    </parameters>
+    <parameters id="kth">
+      <value value="0.00000000000000e+00"/>
+    </parameters>
+    <parameters id="dvfile">
+      <value/>
+    </parameters>
+    <parameters id="emod">
+      <value value="2.06000000000000e+06"/>
+    </parameters>
+    <parameters id="diam">
+      <value value="3.00000000000000e+01"/>
+    </parameters>
+    <parameters id="fi">
+      <value value="1"/>
+    </parameters>
+  </primitives>
+  <primitives id="bend" title="Bend" uId="1" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port  A" uId="0"/>
+    <ports id="port_b" title="Port  B" uId="1"/>
+    <parameters id="aeropt">
+      <value value="1"/>
+    </parameters>
+    <parameters id="vol1">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="bmeff">
+      <value value="8.00000000000000e+03"/>
+    </parameters>
+    <parameters id="p2">
+      <value value="1.00000000000000e+000"/>
+    </parameters>
+    <parameters id="wallt">
+      <value value="1.00000000000000e+01"/>
+    </parameters>
+    <parameters id="a0b0">
+      <value value="1.00000000000000e+00"/>
+    </parameters>
+    <parameters id="xu2">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="sectiontype">
+      <value value="1"/>
+    </parameters>
+    <parameters id="rc">
+      <value value="7.17600190294960e+01"/>
+    </parameters>
+    <parameters id="bmind">
+      <value value="1"/>
+    </parameters>
+    <parameters id="fi">
+      <value value="1"/>
+    </parameters>
+    <parameters id="emod">
+      <value value="2.06000000000000e+06"/>
+    </parameters>
+    <parameters id="t2">
+      <value value="2.00000000000000e+001"/>
+    </parameters>
+    <parameters id="aerinit">
+      <value value="1"/>
+    </parameters>
+    <parameters id="dvol1">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="rr">
+      <value value="1.00000000000000e-05"/>
+    </parameters>
+    <parameters id="thhuse">
+      <value value="1"/>
+    </parameters>
+    <parameters id="delta">
+      <value value="9.00000000000000e+01"/>
+    </parameters>
+    <parameters id="diam">
+      <value value="3.00000000000000e+01"/>
+    </parameters>
+    <parameters id="xg2">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+  </primitives>
+  <primitives id="bend" title="Bend" uId="2" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port  A" uId="0"/>
+    <ports id="port_b" title="Port  B" uId="1"/>
+    <parameters id="dvol1">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="diam">
+      <value value="3.00000000000000e+01"/>
+    </parameters>
+    <parameters id="vol2">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="thhuse">
+      <value value="1"/>
+    </parameters>
+    <parameters id="sectiontype">
+      <value value="1"/>
+    </parameters>
+    <parameters id="rc">
+      <value value="4.99999999999990e+01"/>
+    </parameters>
+    <parameters id="a0b0">
+      <value value="1.00000000000000e+00"/>
+    </parameters>
+    <parameters id="aeropt">
+      <value value="1"/>
+    </parameters>
+    <parameters id="fi">
+      <value value="1"/>
+    </parameters>
+    <parameters id="rr">
+      <value value="1.00000000000000e-05"/>
+    </parameters>
+    <parameters id="delta">
+      <value value="4.49999999999940e+01"/>
+    </parameters>
+    <parameters id="vol1">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="dvol2">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+  </primitives>
+  <primitives id="bend" title="Bend" uId="3" domainId="fluid" domainInstance="1">
+    <ports id="port_b" title="Port  B" uId="1"/>
+    <ports id="port_a" title="Port  A" uId="0"/>
+    <parameters id="diam">
+      <value value="3.00000000000000e+01"/>
+    </parameters>
+    <parameters id="sectiontype">
+      <value value="1"/>
+    </parameters>
+    <parameters id="rr">
+      <value value="1.00000000000000e-05"/>
+    </parameters>
+    <parameters id="aeropt">
+      <value value="1"/>
+    </parameters>
+    <parameters id="dvol1">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="delta">
+      <value value="6.55526786290730e+01"/>
+    </parameters>
+    <parameters id="rc">
+      <value value="4.96708809555280e+01"/>
+    </parameters>
+    <parameters id="vol1">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="thhuse">
+      <value value="1"/>
+    </parameters>
+    <parameters id="fi">
+      <value value="1"/>
+    </parameters>
+    <parameters id="vol2">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="a0b0">
+      <value value="1.00000000000000e+00"/>
+    </parameters>
+    <parameters id="dvol2">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+  </primitives>
+  <primitives id="pipe" title="Pipe" uId="3" domainId="fluid" domainInstance="1">
+    <ports id="port_a" title="Port  A" uId="0"/>
+    <parameters id="dvfile">
+      <value/>
+    </parameters>
+    <parameters id="extemp">
+      <value value="2.00000000000000e+01"/>
+    </parameters>
+    <parameters id="aerinit">
+      <value value="1"/>
+    </parameters>
+    <parameters id="xu1">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="le">
+      <value value="1.35838129127020e-01"/>
+    </parameters>
+    <parameters id="xg1">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="thhuse">
+      <value value="1"/>
+    </parameters>
+    <parameters id="dvol2">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="t1">
+      <value value="2.00000000000000e+001"/>
+    </parameters>
+    <parameters id="thick">
+      <value value="0.00000000000000e+00"/>
+    </parameters>
+    <parameters id="kth">
+      <value value="0.00000000000000e+00"/>
+    </parameters>
+    <parameters id="diam">
+      <value value="3.00000000000000e+01"/>
+    </parameters>
+    <parameters id="bulkfluid">
+      <value value="1.70000000000000e+04"/>
+    </parameters>
+    <parameters id="p1">
+      <value value="1.00000000000000e+000"/>
+    </parameters>
+    <parameters id="fi">
+      <value value="1"/>
+    </parameters>
+    <parameters id="bmwallfile">
+      <value/>
+    </parameters>
+    <parameters id="vol2">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="rr">
+      <value value="1.00000000000000e-05"/>
+    </parameters>
+    <parameters id="ang">
+      <value value="0.00000000000000e+00"/>
+    </parameters>
+    <parameters id="aeropt">
+      <value value="1"/>
+    </parameters>
+    <parameters id="method">
+      <value value="2"/>
+    </parameters>
+    <parameters id="emod">
+      <value value="2.06000000000000e+06"/>
+    </parameters>
+    <parameters id="volexptype">
+      <value value="1"/>
+    </parameters>
+    <parameters id="beff">
+      <value value="8.00000000000000e+03"/>
+    </parameters>
+  </primitives>
+  <primitives id="bend" title="Bend" uId="0" domainId="fluid" domainInstance="1">
+    <ports id="port_b" title="Port  B" uId="1"/>
+    <ports id="port_a" title="Port  A" uId="0"/>
+    <parameters id="a0b0">
+      <value value="1.00000000000000e+00"/>
+    </parameters>
+    <parameters id="vol1">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="dvol1">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="delta">
+      <value value="9.00000000000000e+01"/>
+    </parameters>
+    <parameters id="rc">
+      <value value="6.41618708729800e+01"/>
+    </parameters>
+    <parameters id="sectiontype">
+      <value value="1"/>
+    </parameters>
+    <parameters id="diam">
+      <value value="3.00000000000000e+01"/>
+    </parameters>
+    <parameters id="fi">
+      <value value="1"/>
+    </parameters>
+    <parameters id="vol2">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="aeropt">
+      <value value="1"/>
+    </parameters>
+    <parameters id="dvol2">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="rr">
+      <value value="1.00000000000000e-05"/>
+    </parameters>
+    <parameters id="thhuse">
+      <value value="1"/>
+    </parameters>
+  </primitives>
+  <primitives id="t_junction" title="T-junction" uId="0" domainId="fluid" domainInstance="1">
+    <ports id="port_b" title="Port  B" uId="1"/>
+    <ports id="port_c" title="Port  C" uId="2"/>
+    <parameters id="expstraightconfig1">
+      <value value="1 - 1"/>
+    </parameters>
+    <parameters id="expsideconfig4">
+      <value/>
+    </parameters>
+    <parameters id="xu3">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="mode">
+      <value value="1"/>
+    </parameters>
+    <parameters id="expk31config2">
+      <value value="2+3"/>
+    </parameters>
+    <parameters id="expstraightconfig4">
+      <value value="1 - 1"/>
+    </parameters>
+    <parameters id="expk12config5">
+      <value value="1+0.3"/>
+    </parameters>
+    <parameters id="expk21config2">
+      <value value="2+3"/>
+    </parameters>
+    <parameters id="xu1">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="xg1">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="alpha">
+      <value value="9.00000000000000e+01"/>
+    </parameters>
+    <parameters id="expstraightconfig6">
+      <value/>
+    </parameters>
+    <parameters id="tau">
+      <value value="1.00000000000000e-06"/>
+    </parameters>
+    <parameters id="vol2">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="xg3">
+      <value value="1.00000000000000e-006"/>
+    </parameters>
+    <parameters id="dvol2">
+      <value value="0.00000000000000e+000"/>
+    </parameters>
+    <parameters id="aerinit">
+      <value value="1"/>
+    </parameters>
+    <parameters id="expstraightconfig3">
+      <value/>
+    </parameters>
+    <parameters id="acc">
+      <value value="9.00000000000000e-01"/>
+    </parameters>
+    <parameters id="p1">
+      <value value="1.00000000000000e+000"/>
+    </parameters>
+    <parameters id="diamc">
+      <value value="3.00000000000000e+01"/>
+    </parameters>
+    <parameters id="expk13config5">
+      <value value="1+0.3"/>
+    </parameters>
+    <parameters id="aeropt">
+      <value value="1"/>
+    </parameters>
+    <parameters id="t3">
+      <value value="2.00000000000000e+001"/>
+    </parameters>
+    <parameters id="expsideconfig6">
+      <value/>
+    </parameters>
+    <parameters id="x">
+      <value value="1.00000000000000e+00"/>
+    </parameters>
+    <parameters id="diams">
+      <value value="1.50000000000000e+01"/>
+    </parameters>
+    <parameters id="p3">
+      <value value="1.00000000000000e+000"/>
+    </parameters>
+    <parameters id="t1">
+      <value value="2.00000000000000e+001"/>
+    </parameters>
+    <parameters id="thhuse">
+      <value value="1"/>
+    </parameters>
+    <parameters id="expsideconfig1">
+      <value/>
+    </parameters>
+    <parameters id="expsideconfig3">
+      <value/>
+    </parameters>
+    <parameters id="fi">
+      <value value="1"/>
+    </parameters>
+    <parameters id="relim">
+      <value value="1.00000000000000e+03"/>
+    </parameters>
+  </primitives>
+  <connections firstPort="//@primitives.2/@ports.0" secondPort="//@primitives.3/@ports.0"/>
+  <connections firstPort="//@primitives.1/@ports.0" secondPort="//@primitives.4/@ports.0"/>
+  <connections firstPort="//@primitives.4/@ports.1" secondPort="//@primitives.2/@ports.1"/>
+  <connections firstPort="//@primitives.1/@ports.1" secondPort="//@primitives.5/@ports.0"/>
+  <connections firstPort="//@primitives.7/@ports.0" secondPort="//@primitives.6/@ports.0"/>
+  <connections firstPort="//@primitives.0/@ports.0" secondPort="//@primitives.5/@ports.1"/>
+  <connections firstPort="//@primitives.3/@ports.1" secondPort="//@primitives.8/@ports.0"/>
+  <connections firstPort="//@primitives.7/@ports.1" secondPort="//@primitives.8/@ports.1"/>
+</CAD:CADContainer>

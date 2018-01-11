@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?><plugin>
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package class="Cad2AmePiping.Cad2AmePipingPackage" genModel="model/Cad2AmePiping.genmodel" uri="platform:/plugin/Cad2AmePiping/model/Cad2AmePiping.ecore"/>
+  </extension>
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package class="Cad2AmePiping.Rules.RulesPackage" genModel="model/Cad2AmePiping.genmodel" uri="platform:/plugin/Cad2AmePiping/model/Cad2AmePiping.ecore#//Rules"/>
+  </extension>
+</plugin>

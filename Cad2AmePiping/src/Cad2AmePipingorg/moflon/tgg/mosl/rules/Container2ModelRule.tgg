@@ -1,0 +1,27 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule Container2ModelRule #with Cad2AmePiping
+
+#source { 
+	++ container:CADContainer {
+		version:="15.0.0"
+	}
+}
+
+#target {
+	++ model:AMEModel {
+		
+	}
+}
+
+#correspondence {
+	++ container2model:CadContainer2AmeModel {
+		#src->container
+		#trg->model
+	}
+}
+
+#attributeConditions {
+	
+}

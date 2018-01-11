@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ASCII"?>
+<language:AMEModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:language="platform:/plugin/org.emoflon.ame/model/generated/Language.ecore">
+  <lines xsi:type="language:Bend" name="hrbend_0"/>
+  <lines xsi:type="language:Pipe" name="hrpipe_6"/>
+  <lines xsi:type="language:Pipe" name="hrpipe_7"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_b" owner="//@lines.0" value="0.000706858347057703"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_b" owner="//@lines.2" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="angle" owner="//@lines.1" value="0"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_b" owner="//@lines.2" value="0.000706858347057703"/>
+  <lines xsi:type="language:Parameter" paramName="peri_b" owner="//@lines.1" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="peri_b" owner="//@lines.2" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="peri_b" owner="//@lines.0" value="0.0942477796076938"/>
+  <lines xsi:type="language:Bend" name="hrbend_8"/>
+  <lines xsi:type="language:Parameter" paramName="cent_ang" owner="//@lines.0" value="90"/>
+  <lines xsi:type="language:Parameter" paramName="curv_rad" owner="//@lines.10" value="0.0717600190294959"/>
+  <lines xsi:type="language:Parameter" paramName="peri_b" owner="//@lines.10" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_a" owner="//@lines.0" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_a" owner="//@lines.10" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_b" owner="//@lines.0" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_a" owner="//@lines.2" value="0.000706858347057703"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_a" owner="//@lines.1" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="peri_a" owner="//@lines.0" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_b" owner="//@lines.1" value="0.000706858347057704"/>
+  <lines xsi:type="language:Parameter" paramName="curv_rad" owner="//@lines.0" value="0.0641618708729802"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_b" owner="//@lines.10" value="0.000706858347057704"/>
+  <lines xsi:type="language:Parameter" paramName="peri_a" owner="//@lines.1" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_b" owner="//@lines.1" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="w_thick" owner="//@lines.1" value="0"/>
+  <lines xsi:type="language:ConnectionWithLine">
+    <ports owner="//@lines.2" number="1"/>
+    <ports owner="//@lines.10" number="0"/>
+  </lines>
+  <lines xsi:type="language:Pipe" name="hrpipe_3"/>
+  <lines xsi:type="language:Parameter" paramName="angle" owner="//@lines.27" value="38.7643248091024"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_a" owner="//@lines.27" value="0.0299827894428229"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_a" owner="//@lines.27" value="0.000706452832857765"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_b" owner="//@lines.27" value="0.000706858347057703"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_b" owner="//@lines.10" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_a" owner="//@lines.1" value="0.000706858347057703"/>
+  <lines xsi:type="language:Parameter" paramName="w_thick" owner="//@lines.0" value="0"/>
+  <lines xsi:type="language:Parameter" paramName="peri_a" owner="//@lines.10" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="peri_b" owner="//@lines.27" value="0.0942477796076938"/>
+  <lines xsi:type="language:Pipe" name="hrpipe_2"/>
+  <lines xsi:type="language:Parameter" paramName="peri_b" owner="//@lines.37" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_a" owner="//@lines.37" value="0.000706858347057703"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_b" owner="//@lines.37" value="0.000706858347057703"/>
+  <lines xsi:type="language:Parameter" paramName="w_thick" owner="//@lines.10" value="0"/>
+  <lines xsi:type="language:Parameter" paramName="angle" owner="//@lines.2" value="0"/>
+  <lines xsi:type="language:Parameter" paramName="peri_a" owner="//@lines.27" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="w_thick" owner="//@lines.2" value="0"/>
+  <lines xsi:type="language:Parameter" paramName="w_thick" owner="//@lines.37" value="0"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_b" owner="//@lines.37" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="len" owner="//@lines.37" value="0.13583812912702"/>
+  <lines xsi:type="language:Parameter" paramName="w_thick" owner="//@lines.27" value="0"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_a" owner="//@lines.2" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_a" owner="//@lines.0" value="0.000706858347057703"/>
+  <lines xsi:type="language:TJunction" name="hrtee90_1"/>
+  <lines xsi:type="language:Parameter" paramName="ang_bc" owner="//@lines.51" value="90"/>
+  <lines xsi:type="language:Parameter" paramName="peri_c" owner="//@lines.51" value="0.0471238898038469"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_b" owner="//@lines.51" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_b" owner="//@lines.51" value="0.000706858347057703"/>
+  <lines xsi:type="language:Parameter" paramName="peri_b" owner="//@lines.51" value="0.0942477796076938"/>
+  <lines xsi:type="language:ConnectionWithLine">
+    <ports owner="//@lines.51" number="1"/>
+    <ports owner="//@lines.10" number="1"/>
+  </lines>
+  <lines xsi:type="language:Parameter" paramName="h_dia_a" owner="//@lines.51" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="angle" owner="//@lines.37" value="90"/>
+  <lines xsi:type="language:Parameter" paramName="len" owner="//@lines.27" value="0.288018162725892"/>
+  <lines xsi:type="language:Parameter" paramName="ang_ac" owner="//@lines.51" value="90"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_c" owner="//@lines.51" value="0.015"/>
+  <lines xsi:type="language:ConnectionWithLine">
+    <ports owner="//@lines.37" number="0"/>
+    <ports owner="//@lines.0" number="1"/>
+  </lines>
+  <lines xsi:type="language:Parameter" paramName="h_dia_a" owner="//@lines.37" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="ang_ab" owner="//@lines.51" value="180"/>
+  <lines xsi:type="language:Parameter" paramName="len" owner="//@lines.1" value="0.109942206276773"/>
+  <lines xsi:type="language:Bend" name="hrbend_5"/>
+  <lines xsi:type="language:Parameter" paramName="w_thick" owner="//@lines.67" value="0"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_b" owner="//@lines.67" value="0.000706858347057703"/>
+  <lines xsi:type="language:Parameter" paramName="cent_ang" owner="//@lines.10" value="90"/>
+  <lines xsi:type="language:Parameter" paramName="peri_a" owner="//@lines.51" value="0.0942477796076938"/>
+  <lines xsi:type="language:Bend" name="hrbend_4"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_b" owner="//@lines.72" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="int_vol" owner="//@lines.51" value="0.000131082974848502"/>
+  <lines xsi:type="language:Parameter" paramName="peri_a" owner="//@lines.72" value="0.0942477796076938"/>
+  <lines xsi:type="language:ConnectionWithLine">
+    <ports owner="//@lines.1" number="0"/>
+    <ports owner="//@lines.72" number="1"/>
+  </lines>
+  <lines xsi:type="language:Parameter" paramName="curv_rad" owner="//@lines.72" value="0.0496708809555282"/>
+  <lines xsi:type="language:Parameter" paramName="peri_b" owner="//@lines.72" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_a" owner="//@lines.72" value="0.000706858347057703"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_a" owner="//@lines.72" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_b" owner="//@lines.72" value="0.000706858347057703"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_b" owner="//@lines.27" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="len" owner="//@lines.2" value="0.0588452570752893"/>
+  <lines xsi:type="language:ConnectionWithLine">
+    <ports owner="//@lines.1" number="1"/>
+    <ports owner="//@lines.67" number="0"/>
+  </lines>
+  <lines xsi:type="language:Parameter" paramName="curv_rad" owner="//@lines.67" value="0.0499999999999991"/>
+  <lines xsi:type="language:Parameter" paramName="peri_b" owner="//@lines.67" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="w_thick" owner="//@lines.72" value="0"/>
+  <lines xsi:type="language:ConnectionWithLine">
+    <ports owner="//@lines.51" number="0"/>
+    <ports owner="//@lines.0" number="0"/>
+  </lines>
+  <lines xsi:type="language:Parameter" paramName="peri_a" owner="//@lines.67" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_a" owner="//@lines.67" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_c" owner="//@lines.51" value="0.000176714586764426"/>
+  <lines xsi:type="language:Parameter" paramName="peri_a" owner="//@lines.2" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="peri_a" owner="//@lines.37" value="0.0942477796076938"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_a" owner="//@lines.10" value="0.000706858347057703"/>
+  <lines xsi:type="language:ConnectionWithLine">
+    <ports owner="//@lines.67" number="1"/>
+    <ports owner="//@lines.2" number="0"/>
+  </lines>
+  <lines xsi:type="language:Parameter" paramName="cent_ang" owner="//@lines.67" value="44.9999999999944"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_a" owner="//@lines.51" value="0.000706858347057704"/>
+  <lines xsi:type="language:Parameter" paramName="h_dia_b" owner="//@lines.67" value="0.03"/>
+  <lines xsi:type="language:Parameter" paramName="cent_ang" owner="//@lines.72" value="65.5526786290725"/>
+  <lines xsi:type="language:Parameter" paramName="cx_area_a" owner="//@lines.67" value="0.000706858347057703"/>
+  <lines xsi:type="language:ConnectionWithLine">
+    <ports owner="//@lines.27" number="0"/>
+    <ports owner="//@lines.72" number="0"/>
+  </lines>
+</language:AMEModel>

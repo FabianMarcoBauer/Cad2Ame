@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.moflon.tgg.runtime:CorrespondenceModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Cad2AmePiping="platform:/plugin/Cad2AmePiping/model/Cad2AmePiping.ecore" xmlns:org.moflon.tgg.runtime="platform:/plugin/org.moflon.tgg.runtime/model/Runtime.ecore">
+  <correspondences xsi:type="Cad2AmePiping:CadContainer2AmeModel">
+    <source href="fwd.src.xmi#/"/>
+    <target href="fwd.trg.xmi#/"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitive2RelevantComponent">
+    <source href="fwd.src.xmi#//@primitives.0"/>
+    <target href="fwd.trg.xmi#//@lines.0"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitive2RelevantComponent">
+    <source href="fwd.src.xmi#//@primitives.6"/>
+    <target href="fwd.trg.xmi#//@lines.1"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitive2RelevantComponent">
+    <source href="fwd.src.xmi#//@primitives.7"/>
+    <target href="fwd.trg.xmi#//@lines.2"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.3"/>
+    <target href="fwd.trg.xmi#//@lines.3"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.3/@value"/>
+    <target href="fwd.trg.xmi#//@lines.3"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.5"/>
+    <target href="fwd.trg.xmi#//@lines.4"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.5/@value"/>
+    <target href="fwd.trg.xmi#//@lines.4"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.7"/>
+    <target href="fwd.trg.xmi#//@lines.5"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.7/@value"/>
+    <target href="fwd.trg.xmi#//@lines.5"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.3"/>
+    <target href="fwd.trg.xmi#//@lines.6"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.3/@value"/>
+    <target href="fwd.trg.xmi#//@lines.6"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.4"/>
+    <target href="fwd.trg.xmi#//@lines.7"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.4/@value"/>
+    <target href="fwd.trg.xmi#//@lines.7"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.4"/>
+    <target href="fwd.trg.xmi#//@lines.8"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.4/@value"/>
+    <target href="fwd.trg.xmi#//@lines.8"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.4"/>
+    <target href="fwd.trg.xmi#//@lines.9"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.4/@value"/>
+    <target href="fwd.trg.xmi#//@lines.9"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitive2RelevantComponent">
+    <source href="fwd.src.xmi#//@primitives.8"/>
+    <target href="fwd.trg.xmi#//@lines.10"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.7"/>
+    <target href="fwd.trg.xmi#//@lines.11"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.7/@value"/>
+    <target href="fwd.trg.xmi#//@lines.11"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.6"/>
+    <target href="fwd.trg.xmi#//@lines.12"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.6/@value"/>
+    <target href="fwd.trg.xmi#//@lines.12"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.4"/>
+    <target href="fwd.trg.xmi#//@lines.13"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.4/@value"/>
+    <target href="fwd.trg.xmi#//@lines.13"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.2"/>
+    <target href="fwd.trg.xmi#//@lines.14"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.2/@value"/>
+    <target href="fwd.trg.xmi#//@lines.14"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.2"/>
+    <target href="fwd.trg.xmi#//@lines.15"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.2/@value"/>
+    <target href="fwd.trg.xmi#//@lines.15"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.5"/>
+    <target href="fwd.trg.xmi#//@lines.16"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.5/@value"/>
+    <target href="fwd.trg.xmi#//@lines.16"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.1"/>
+    <target href="fwd.trg.xmi#//@lines.17"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.1/@value"/>
+    <target href="fwd.trg.xmi#//@lines.17"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.0"/>
+    <target href="fwd.trg.xmi#//@lines.18"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.0/@value"/>
+    <target href="fwd.trg.xmi#//@lines.18"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.1"/>
+    <target href="fwd.trg.xmi#//@lines.19"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.1/@value"/>
+    <target href="fwd.trg.xmi#//@lines.19"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.3"/>
+    <target href="fwd.trg.xmi#//@lines.20"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.3/@value"/>
+    <target href="fwd.trg.xmi#//@lines.20"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.6"/>
+    <target href="fwd.trg.xmi#//@lines.21"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.6/@value"/>
+    <target href="fwd.trg.xmi#//@lines.21"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.3"/>
+    <target href="fwd.trg.xmi#//@lines.22"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.3/@value"/>
+    <target href="fwd.trg.xmi#//@lines.22"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.2"/>
+    <target href="fwd.trg.xmi#//@lines.23"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.2/@value"/>
+    <target href="fwd.trg.xmi#//@lines.23"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.5"/>
+    <target href="fwd.trg.xmi#//@lines.24"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.5/@value"/>
+    <target href="fwd.trg.xmi#//@lines.24"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.8"/>
+    <target href="fwd.trg.xmi#//@lines.25"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.8/@value"/>
+    <target href="fwd.trg.xmi#//@lines.25"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadConnection2Connection">
+    <source href="fwd.src.xmi#//@connections.6"/>
+    <target href="fwd.trg.xmi#//@lines.26"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.8/@ports.0"/>
+    <target href="fwd.trg.xmi#//@lines.26/@ports.1"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.7/@ports.1"/>
+    <target href="fwd.trg.xmi#//@lines.26/@ports.0"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitive2RelevantComponent">
+    <source href="fwd.src.xmi#//@primitives.3"/>
+    <target href="fwd.trg.xmi#//@lines.27"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.7"/>
+    <target href="fwd.trg.xmi#//@lines.28"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.7/@value"/>
+    <target href="fwd.trg.xmi#//@lines.28"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.0"/>
+    <target href="fwd.trg.xmi#//@lines.29"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.0/@value"/>
+    <target href="fwd.trg.xmi#//@lines.29"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.1"/>
+    <target href="fwd.trg.xmi#//@lines.30"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.1/@value"/>
+    <target href="fwd.trg.xmi#//@lines.30"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.3"/>
+    <target href="fwd.trg.xmi#//@lines.31"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.3/@value"/>
+    <target href="fwd.trg.xmi#//@lines.31"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.5"/>
+    <target href="fwd.trg.xmi#//@lines.32"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.5/@value"/>
+    <target href="fwd.trg.xmi#//@lines.32"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.1"/>
+    <target href="fwd.trg.xmi#//@lines.33"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.1/@value"/>
+    <target href="fwd.trg.xmi#//@lines.33"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.8"/>
+    <target href="fwd.trg.xmi#//@lines.34"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.8/@value"/>
+    <target href="fwd.trg.xmi#//@lines.34"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.1"/>
+    <target href="fwd.trg.xmi#//@lines.35"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.1/@value"/>
+    <target href="fwd.trg.xmi#//@lines.35"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.4"/>
+    <target href="fwd.trg.xmi#//@lines.36"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.4/@value"/>
+    <target href="fwd.trg.xmi#//@lines.36"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitive2RelevantComponent">
+    <source href="fwd.src.xmi#//@primitives.2"/>
+    <target href="fwd.trg.xmi#//@lines.37"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.4"/>
+    <target href="fwd.trg.xmi#//@lines.38"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.4/@value"/>
+    <target href="fwd.trg.xmi#//@lines.38"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.1"/>
+    <target href="fwd.trg.xmi#//@lines.39"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.1/@value"/>
+    <target href="fwd.trg.xmi#//@lines.39"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.3"/>
+    <target href="fwd.trg.xmi#//@lines.40"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.3/@value"/>
+    <target href="fwd.trg.xmi#//@lines.40"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.8"/>
+    <target href="fwd.trg.xmi#//@lines.41"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.8/@value"/>
+    <target href="fwd.trg.xmi#//@lines.41"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.7"/>
+    <target href="fwd.trg.xmi#//@lines.42"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.7/@value"/>
+    <target href="fwd.trg.xmi#//@lines.42"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.2"/>
+    <target href="fwd.trg.xmi#//@lines.43"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.2/@value"/>
+    <target href="fwd.trg.xmi#//@lines.43"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.8"/>
+    <target href="fwd.trg.xmi#//@lines.44"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.8/@value"/>
+    <target href="fwd.trg.xmi#//@lines.44"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.8"/>
+    <target href="fwd.trg.xmi#//@lines.45"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.8/@value"/>
+    <target href="fwd.trg.xmi#//@lines.45"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.5"/>
+    <target href="fwd.trg.xmi#//@lines.46"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.5/@value"/>
+    <target href="fwd.trg.xmi#//@lines.46"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.6"/>
+    <target href="fwd.trg.xmi#//@lines.47"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.6/@value"/>
+    <target href="fwd.trg.xmi#//@lines.47"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.8"/>
+    <target href="fwd.trg.xmi#//@lines.48"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.8/@value"/>
+    <target href="fwd.trg.xmi#//@lines.48"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.0"/>
+    <target href="fwd.trg.xmi#//@lines.49"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.0/@value"/>
+    <target href="fwd.trg.xmi#//@lines.49"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.0"/>
+    <target href="fwd.trg.xmi#//@lines.50"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.0/@parameters.0/@value"/>
+    <target href="fwd.trg.xmi#//@lines.50"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitive2RelevantComponent">
+    <source href="fwd.src.xmi#//@primitives.1"/>
+    <target href="fwd.trg.xmi#//@lines.51"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.11"/>
+    <target href="fwd.trg.xmi#//@lines.52"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.11/@value"/>
+    <target href="fwd.trg.xmi#//@lines.52"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.7"/>
+    <target href="fwd.trg.xmi#//@lines.53"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.7/@value"/>
+    <target href="fwd.trg.xmi#//@lines.53"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.5"/>
+    <target href="fwd.trg.xmi#//@lines.54"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.5/@value"/>
+    <target href="fwd.trg.xmi#//@lines.54"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.3"/>
+    <target href="fwd.trg.xmi#//@lines.55"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.3/@value"/>
+    <target href="fwd.trg.xmi#//@lines.55"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.4"/>
+    <target href="fwd.trg.xmi#//@lines.56"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.4/@value"/>
+    <target href="fwd.trg.xmi#//@lines.56"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadConnection2Connection">
+    <source href="fwd.src.xmi#//@connections.7"/>
+    <target href="fwd.trg.xmi#//@lines.57"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.8/@ports.1"/>
+    <target href="fwd.trg.xmi#//@lines.57/@ports.1"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.1/@ports.1"/>
+    <target href="fwd.trg.xmi#//@lines.57/@ports.0"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.2"/>
+    <target href="fwd.trg.xmi#//@lines.58"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.2/@value"/>
+    <target href="fwd.trg.xmi#//@lines.58"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.7"/>
+    <target href="fwd.trg.xmi#//@lines.59"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.7/@value"/>
+    <target href="fwd.trg.xmi#//@lines.59"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.6"/>
+    <target href="fwd.trg.xmi#//@lines.60"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.6/@value"/>
+    <target href="fwd.trg.xmi#//@lines.60"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.10"/>
+    <target href="fwd.trg.xmi#//@lines.61"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.10/@value"/>
+    <target href="fwd.trg.xmi#//@lines.61"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.8"/>
+    <target href="fwd.trg.xmi#//@lines.62"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.8/@value"/>
+    <target href="fwd.trg.xmi#//@lines.62"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadConnection2Connection">
+    <source href="fwd.src.xmi#//@connections.3"/>
+    <target href="fwd.trg.xmi#//@lines.63"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.0/@ports.1"/>
+    <target href="fwd.trg.xmi#//@lines.63/@ports.1"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.2/@ports.0"/>
+    <target href="fwd.trg.xmi#//@lines.63/@ports.0"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.0"/>
+    <target href="fwd.trg.xmi#//@lines.64"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.0/@value"/>
+    <target href="fwd.trg.xmi#//@lines.64"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.9"/>
+    <target href="fwd.trg.xmi#//@lines.65"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.9/@value"/>
+    <target href="fwd.trg.xmi#//@lines.65"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.6"/>
+    <target href="fwd.trg.xmi#//@lines.66"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.6/@parameters.6/@value"/>
+    <target href="fwd.trg.xmi#//@lines.66"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitive2RelevantComponent">
+    <source href="fwd.src.xmi#//@primitives.5"/>
+    <target href="fwd.trg.xmi#//@lines.67"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.8"/>
+    <target href="fwd.trg.xmi#//@lines.68"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.8/@value"/>
+    <target href="fwd.trg.xmi#//@lines.68"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.3"/>
+    <target href="fwd.trg.xmi#//@lines.69"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.3/@value"/>
+    <target href="fwd.trg.xmi#//@lines.69"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.7"/>
+    <target href="fwd.trg.xmi#//@lines.70"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.7/@value"/>
+    <target href="fwd.trg.xmi#//@lines.70"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.1"/>
+    <target href="fwd.trg.xmi#//@lines.71"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.1/@value"/>
+    <target href="fwd.trg.xmi#//@lines.71"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitive2RelevantComponent">
+    <source href="fwd.src.xmi#//@primitives.4"/>
+    <target href="fwd.trg.xmi#//@lines.72"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.5"/>
+    <target href="fwd.trg.xmi#//@lines.73"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.5/@value"/>
+    <target href="fwd.trg.xmi#//@lines.73"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.12"/>
+    <target href="fwd.trg.xmi#//@lines.74"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.12/@value"/>
+    <target href="fwd.trg.xmi#//@lines.74"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.1"/>
+    <target href="fwd.trg.xmi#//@lines.75"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.1/@value"/>
+    <target href="fwd.trg.xmi#//@lines.75"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadConnection2Connection">
+    <source href="fwd.src.xmi#//@connections.4"/>
+    <target href="fwd.trg.xmi#//@lines.76"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.4/@ports.1"/>
+    <target href="fwd.trg.xmi#//@lines.76/@ports.1"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.6/@ports.0"/>
+    <target href="fwd.trg.xmi#//@lines.76/@ports.0"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.6"/>
+    <target href="fwd.trg.xmi#//@lines.77"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.6/@value"/>
+    <target href="fwd.trg.xmi#//@lines.77"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.4"/>
+    <target href="fwd.trg.xmi#//@lines.78"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.4/@value"/>
+    <target href="fwd.trg.xmi#//@lines.78"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.0"/>
+    <target href="fwd.trg.xmi#//@lines.79"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.0/@value"/>
+    <target href="fwd.trg.xmi#//@lines.79"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.2"/>
+    <target href="fwd.trg.xmi#//@lines.80"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.2/@value"/>
+    <target href="fwd.trg.xmi#//@lines.80"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.3"/>
+    <target href="fwd.trg.xmi#//@lines.81"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.3/@value"/>
+    <target href="fwd.trg.xmi#//@lines.81"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.5"/>
+    <target href="fwd.trg.xmi#//@lines.82"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.3/@parameters.5/@value"/>
+    <target href="fwd.trg.xmi#//@lines.82"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.6"/>
+    <target href="fwd.trg.xmi#//@lines.83"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.6/@value"/>
+    <target href="fwd.trg.xmi#//@lines.83"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadConnection2Connection">
+    <source href="fwd.src.xmi#//@connections.1"/>
+    <target href="fwd.trg.xmi#//@lines.84"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.5/@ports.0"/>
+    <target href="fwd.trg.xmi#//@lines.84/@ports.1"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.6/@ports.1"/>
+    <target href="fwd.trg.xmi#//@lines.84/@ports.0"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.6"/>
+    <target href="fwd.trg.xmi#//@lines.85"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.6/@value"/>
+    <target href="fwd.trg.xmi#//@lines.85"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.4"/>
+    <target href="fwd.trg.xmi#//@lines.86"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.4/@value"/>
+    <target href="fwd.trg.xmi#//@lines.86"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.8"/>
+    <target href="fwd.trg.xmi#//@lines.87"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.8/@value"/>
+    <target href="fwd.trg.xmi#//@lines.87"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadConnection2Connection">
+    <source href="fwd.src.xmi#//@connections.2"/>
+    <target href="fwd.trg.xmi#//@lines.88"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.0/@ports.0"/>
+    <target href="fwd.trg.xmi#//@lines.88/@ports.1"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.1/@ports.0"/>
+    <target href="fwd.trg.xmi#//@lines.88/@ports.0"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.1"/>
+    <target href="fwd.trg.xmi#//@lines.89"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.1/@value"/>
+    <target href="fwd.trg.xmi#//@lines.89"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.2"/>
+    <target href="fwd.trg.xmi#//@lines.90"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.2/@value"/>
+    <target href="fwd.trg.xmi#//@lines.90"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.6"/>
+    <target href="fwd.trg.xmi#//@lines.91"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.6/@value"/>
+    <target href="fwd.trg.xmi#//@lines.91"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.2"/>
+    <target href="fwd.trg.xmi#//@lines.92"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.7/@parameters.2/@value"/>
+    <target href="fwd.trg.xmi#//@lines.92"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.2"/>
+    <target href="fwd.trg.xmi#//@lines.93"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.2/@parameters.2/@value"/>
+    <target href="fwd.trg.xmi#//@lines.93"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.0"/>
+    <target href="fwd.trg.xmi#//@lines.94"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.8/@parameters.0/@value"/>
+    <target href="fwd.trg.xmi#//@lines.94"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadConnection2Connection">
+    <source href="fwd.src.xmi#//@connections.0"/>
+    <target href="fwd.trg.xmi#//@lines.95"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.7/@ports.0"/>
+    <target href="fwd.trg.xmi#//@lines.95/@ports.1"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.5/@ports.1"/>
+    <target href="fwd.trg.xmi#//@lines.95/@ports.0"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.7"/>
+    <target href="fwd.trg.xmi#//@lines.96"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.7/@value"/>
+    <target href="fwd.trg.xmi#//@lines.96"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.0"/>
+    <target href="fwd.trg.xmi#//@lines.97"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.1/@parameters.0/@value"/>
+    <target href="fwd.trg.xmi#//@lines.97"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.5"/>
+    <target href="fwd.trg.xmi#//@lines.98"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.5/@value"/>
+    <target href="fwd.trg.xmi#//@lines.98"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.7"/>
+    <target href="fwd.trg.xmi#//@lines.99"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.4/@parameters.7/@value"/>
+    <target href="fwd.trg.xmi#//@lines.99"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameter2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.0"/>
+    <target href="fwd.trg.xmi#//@lines.100"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitiveParameterValue2Parameter">
+    <source href="fwd.src.xmi#//@primitives.5/@parameters.0/@value"/>
+    <target href="fwd.trg.xmi#//@lines.100"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadConnection2Connection">
+    <source href="fwd.src.xmi#//@connections.5"/>
+    <target href="fwd.trg.xmi#//@lines.101"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.4/@ports.0"/>
+    <target href="fwd.trg.xmi#//@lines.101/@ports.1"/>
+  </correspondences>
+  <correspondences xsi:type="Cad2AmePiping:CadPrimitivePort2Port">
+    <source href="fwd.src.xmi#//@primitives.3/@ports.0"/>
+    <target href="fwd.trg.xmi#//@lines.101/@ports.0"/>
+  </correspondences>
+  <source href="fwd.src.xmi#/"/>
+  <target href="fwd.trg.xmi#/"/>
+</org.moflon.tgg.runtime:CorrespondenceModel>
