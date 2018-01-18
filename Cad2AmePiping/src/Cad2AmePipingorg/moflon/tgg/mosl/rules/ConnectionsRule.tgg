@@ -11,18 +11,18 @@
 	}
 	
 	primitive1:CADPrimitive {
-		++ -ports -> cadPort1
+		-ports -> cadPort1
 	}
 	
 	primitive2:CADPrimitive {
-		++ -ports -> cadPort2
+		-ports -> cadPort2
 	}
 	
-	++cadPort1:CADPrimitivePort {
+	cadPort1:CADPrimitivePort {
 		
 	}
 	
-	++cadPort2:CADPrimitivePort {
+	cadPort2:CADPrimitivePort {
 		
 	}
 	
@@ -99,6 +99,6 @@
 	stringToInt(amePort2.number, p2Number)
 	eq(cadPort1.uId, p1Number)
 	eq(cadPort2.uId, p2Number)
-	portNumberToIdAndTitle(p1Number,cadPort1.id, cadPort1.title)
-	portNumberToIdAndTitle(p2Number,cadPort2.id, cadPort2.title)
+	// portNumberToIdAndTitle(p1Number,cadPort1.id, cadPort1.title)
+	// portNumberToIdAndTitle(p2Number,cadPort2.id, cadPort2.title)
 }

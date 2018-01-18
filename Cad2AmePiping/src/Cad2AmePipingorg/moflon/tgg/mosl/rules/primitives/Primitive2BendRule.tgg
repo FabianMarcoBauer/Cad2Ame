@@ -7,6 +7,20 @@
 	++primitive:CADPrimitive {
 		// id:="bend" // The attribute constraint problem of TGG rule Primitive2BendRule is not solvable! if not assigned in the attributeConditions.
 		title:="Bend"
+		++-ports->cadPort1
+		++-ports->cadPort2
+	}
+	
+	++cadPort1:CADPrimitivePort {
+		id:="port_a"
+		title:="Port A"
+		uId:=0
+	}
+	
+	++cadPort2:CADPrimitivePort {
+		id:="port_b"
+		title:="Port B"
+		uId:=1
 	}
 }
 

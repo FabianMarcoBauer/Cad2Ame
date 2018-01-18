@@ -7,6 +7,25 @@
 	++primitive:CADPrimitive {
 		//id:="t_junction" // The attribute constraint problem of TGG rule Primitive2TJunction is not solvable! if not assigned in the attributeConditions.
 		title:="T-junction"
+		++-ports->cadPort1
+		++-ports->cadPort2
+		++-ports->cadPort3
+	}
+	++cadPort1:CADPrimitivePort {
+		id:="port_a"
+		title:="Port A"
+		uId:=0
+	}
+	
+	++cadPort2:CADPrimitivePort {
+		id:="port_b"
+		title:="Port B"
+		uId:=1
+	}
+	++cadPort3:CADPrimitivePort {
+		id:="port_c"
+		title:="Port C"
+		uId:=2
 	}
 }
 

@@ -19,8 +19,8 @@ public class Cad2AmePipingConsistencyCheck extends SynchronizationHelper{
         BasicConfigurator.configure();
         
         Cad2AmePipingConsistencyCheck helper = new Cad2AmePipingConsistencyCheck();
-        helper.loadSrc("instances/src.xmi");
-		helper.loadTrg("instances/trg.xmi");
+        helper.loadSrc("instances/fwd.src.xmi");
+		helper.loadTrg("instances/bwd.src.xmi");
 
 		boolean prepareDeltas = true;
 		helper.createCorrespondences(prepareDeltas);

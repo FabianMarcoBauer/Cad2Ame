@@ -37,7 +37,7 @@
 }
 
 #attributeConditions {
-	primitiveAttributesToComponentName(primitive.id, primitive.uId, component.name)
+	// primitiveAttributesToComponentName(primitive.id, primitive.uId, component.name)
 }
 
 

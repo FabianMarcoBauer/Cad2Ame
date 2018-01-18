@@ -1,0 +1,3 @@
+*.xmi
+!fwd.src.xmi
+!bwd.src.xmi
