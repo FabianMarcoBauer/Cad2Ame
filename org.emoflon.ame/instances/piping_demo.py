@@ -147,13 +147,13 @@ AMEMoveComponent('tank01_1', (90, 332))
 AMEChangeSubmodel('tank01_1', 'TFTK0', r'$AME\libthh\submodels')
 
 # Connect "hrbend" and "hrtee90" with a line
-AMEConnectTwoPortsWithLine('hrbend_0', 0, 'hrtee90_0', 2, 'hydraulic_1', ((703, 482)))
+AMEConnectTwoPortsWithLine('hrbend_0', 0, 'hrtee90_0', 0, 'hydraulic_1', ((703, 482)))
 
 # Connect "hrbend" and "hrpipe_3" with a line
 AMEConnectTwoPortsWithLine('hrbend_0', 1, 'hrpipe_3', 0, 'hydraulic_2', ((776, 510), (774, 510)))
 
 # Connect "hrtee90" and "hydraulicplug" with a line
-AMEConnectTwoPortsWithLine('hrtee90_0', 0, 'hydraulicplug', 0, 'hydraulic_8', ((681, 364), (681, 370)))
+AMEConnectTwoPortsWithLine('hrtee90_0', 2, 'hydraulicplug', 0, 'hydraulic_8', ((681, 364), (681, 370)))
 
 # Connect "hrtee90" and "hrbend_1" with a line
 AMEConnectTwoPortsWithLine('hrbend_1', 1, 'hrtee90_0', 1, 'hydraulic_4', ((676, 294), (703, 294)))

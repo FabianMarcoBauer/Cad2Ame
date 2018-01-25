@@ -4,7 +4,6 @@
 #rule ParameterRule #with Cad2AmePiping
 
 #source {
-	/*
 	container:CADContainer {
 		-primitives -> primitive
 	}
@@ -20,11 +19,9 @@
 	++cadValue:CADPrimitiveParameterValue {
 		
 	}
-	*/
 }
 
 #target {
-	/*
 	model:AMEModel {
 		-lines -> component
 		++ -lines -> ameParameter
@@ -37,11 +34,9 @@
 	++ameParameter:Parameter {
 		++ -owner -> component
 	}
-	*/
 }
 
 #correspondence {
-	/*
 	c2m:CadContainer2AmeModel {
 		#src->container
 		#trg->model
@@ -61,14 +56,10 @@
 		#src->cadValue
 		#trg->ameParameter
 	}
-	*/
 }
 
 #attributeConditions {
-	/*
-	eq(cadParameter.id, ameParameter.paramName)
-	eq(cadValue.value, ameParameter.value)
-	*/
+	parameterMatch(cadParameter.id, ameParameter.paramName, cadValue.value, ameParameter.value)
 }
 
 

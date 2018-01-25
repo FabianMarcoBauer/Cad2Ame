@@ -52,6 +52,10 @@
 	#userDefined portNumberToIdAndTitle(0:EInt, 1:EString, 2:EString) {
 		#sync:BFF,BBB
 		#gen:BFF,BBB}
+
+	#userDefined parameterMatch(0:EString, 1:EString, 2:EString, 3:EString) {
+		#sync: BBBB, BFBF, FBFB
+		#gen: BBBB, BFBF, FBFB, FFFF}
 }
 
 
