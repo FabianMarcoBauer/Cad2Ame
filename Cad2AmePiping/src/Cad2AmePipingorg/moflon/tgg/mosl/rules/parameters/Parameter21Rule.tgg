@@ -1,0 +1,86 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule Parameter21Rule #with Cad2AmePiping
+
+#source {
+	container:CADContainer {
+		-primitives -> primitive
+	}
+
+	primitive:CADPrimitive {
+		++ -parameters -> cadParameter
+		++ -parameters -> cadParameter2
+	}
+
+	++cadParameter:CADPrimitiveParameter {
+		++ -value -> cadValue
+	}
+
+	++cadValue:CADPrimitiveParameterValue {
+		
+	}
+
+	++cadParameter2:CADPrimitiveParameter {
+		++ -value -> cadValue2
+	}
+
+	++cadValue2:CADPrimitiveParameterValue {
+		
+	}
+}
+
+#target {
+	model:AMEModel {
+		-lines -> component
+		++ -lines -> ameParameter
+	}
+
+	component:RelevantComponent {
+		
+	}
+
+	++ameParameter:Parameter {
+		++ -owner -> component
+	}
+}
+
+#correspondence {
+	c2m:CadContainer2AmeModel {
+		#src->container
+		#trg->model
+	}
+
+	p2c:CadPrimitive2RelevantComponent {
+		#src->primitive
+		#trg->component
+	}
+
+	++p2p:CadPrimitiveParameter2Parameter {
+		#src->cadParameter
+		#trg->ameParameter
+	}
+
+	++v2p:CadPrimitiveParameterValue2Parameter {
+		#src->cadValue
+		#trg->ameParameter
+	}
+	
+	++p2p2:CadPrimitiveParameter2Parameter {
+		#src->cadParameter2
+		#trg->ameParameter
+	}
+
+	++v2p2:CadPrimitiveParameterValue2Parameter {
+		#src->cadValue2
+		#trg->ameParameter
+	}
+}
+
+#attributeConditions {
+	parameterMatch21(cadParameter.id, cadValue.value, cadParameter.title, cadParameter.unit, 
+					 cadParameter2.id, cadValue2.value, cadParameter2.title, cadParameter2.unit, 
+					 ameParameter.paramName, ameParameter.value)
+}
+
+

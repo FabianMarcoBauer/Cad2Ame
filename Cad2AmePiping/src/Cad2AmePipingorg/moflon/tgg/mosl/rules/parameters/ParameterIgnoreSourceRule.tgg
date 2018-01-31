@@ -1,0 +1,34 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule ParameterIgnoreRule #with Cad2AmePiping
+
+#source { 
+	container:CADContainer {
+		-primitives -> primitive
+	}
+
+	primitive:CADPrimitive {
+		++ -parameters -> cadParameter
+	}
+
+	++cadParameter:CADPrimitiveParameter {
+		++ -value -> cadValue
+	}
+
+	++cadValue:CADPrimitiveParameterValue {
+		
+	}
+}
+
+#target {
+	
+}
+
+#correspondence {
+	
+}
+
+#attributeConditions {
+	unknownSourceParameter(cadParameter.id)
+}

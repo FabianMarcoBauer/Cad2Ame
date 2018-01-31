@@ -1,0 +1,31 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule ParameterIgnoreTargetRule #with Cad2AmePiping
+
+#source { 
+	
+}
+
+#target {
+	model:AMEModel {
+		-lines -> component
+		++ -lines -> ameParameter
+	}
+
+	component:RelevantComponent {
+		
+	}
+
+	++ameParameter:Parameter {
+		++ -owner -> component
+	}
+}
+
+#correspondence {
+	
+}
+
+#attributeConditions {
+	unknownTargetParameter(ameParameter.paramName)
+}

@@ -53,9 +53,22 @@
 		#sync:BFF,BBB
 		#gen:BFF,BBB}
 
-	#userDefined parameterMatch(0:EString, 1:EString, 2:EString, 3:EString) {
-		#sync: BBBB, BFBF, FBFB
-		#gen: BBBB, BFBF, FBFB, FFFF}
+	#userDefined parameterMatch11(0:EString, 1:EString, 2:EString, 3:EString, 4:EString, 5:EString) {
+		#sync: BBBBBB, BFBFBB, FBFBFF
+		#gen: BBBBBB, BFBFBB, FBFBFF, FFFFFF}
+		
+	#userDefined parameterMatch21(0:EString, 1:EString, 2:EString, 3:EString, 4:EString, 5:EString, 6:EString, 7:EString, 8:EString, 9:EString) {
+		#sync: BBBBBBBBBB, BBBBBBBBFF, FFFFFFFFBB
+		#gen: BBBBBBBBBB, BBBBBBBBFF, FFFFFFFFBB, FFFFFFFFFF}
+		
+	#userDefined unknownSourceParameter(0:EString) {
+		#sync:B,F
+		#gen:B,F}
+		
+	#userDefined unknownTargetParameter(0:EString) {
+		#sync:B,F
+		#gen:B,F}
+
 }
 
 

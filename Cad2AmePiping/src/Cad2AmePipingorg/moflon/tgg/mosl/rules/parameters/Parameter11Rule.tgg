@@ -1,7 +1,7 @@
 #using Cad2AmePiping.*
 #using AttrCondDefLibrary.*
 
-#rule ParameterRule #with Cad2AmePiping
+#rule Parameter11Rule #with Cad2AmePiping
 
 #source {
 	container:CADContainer {
@@ -59,7 +59,7 @@
 }
 
 #attributeConditions {
-	parameterMatch(cadParameter.id, ameParameter.paramName, cadValue.value, ameParameter.value)
+	parameterMatch11(cadParameter.id, ameParameter.paramName, cadValue.value, ameParameter.value, cadParameter.title, cadParameter.unit)
 }
 
 
