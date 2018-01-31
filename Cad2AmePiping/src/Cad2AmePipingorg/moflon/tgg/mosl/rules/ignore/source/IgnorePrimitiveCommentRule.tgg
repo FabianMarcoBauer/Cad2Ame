@@ -1,0 +1,28 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule IgnorePrimitiveCommentRule #with Cad2AmePiping
+
+#source {
+	primitive:CADPrimitive {
+		++-comment -> comment
+	}
+
+	++comment:CADPrimitiveComment {
+		
+	}
+}
+
+#target {
+	
+}
+
+#correspondence {
+	
+}
+
+#attributeConditions {
+	
+}
+
+

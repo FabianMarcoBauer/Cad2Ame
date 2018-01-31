@@ -1,0 +1,47 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule IgnoreConnectionWithIrrelevantTargetRule #with Cad2AmePiping
+
+#source { 
+	
+}
+
+#target {
+	model:AMEModel {
+		-lines -> component1
+		-lines -> component2
+		++ -lines -> ameConnection
+	}
+
+	++ameConnection:ConnectionWithLine {
+		++ -ports -> amePort1
+		++ -ports -> amePort2
+	}
+
+	component1:AbstractComponent{
+		
+	}
+
+	component2:OtherComponent  {
+		
+	}
+
+	++amePort1:Port {
+		++ -owner -> component1
+	}
+
+	++amePort2:Port {
+		++ -owner -> component2
+	}
+}
+
+#correspondence {
+	
+}
+
+#attributeConditions {
+	
+}
+
+

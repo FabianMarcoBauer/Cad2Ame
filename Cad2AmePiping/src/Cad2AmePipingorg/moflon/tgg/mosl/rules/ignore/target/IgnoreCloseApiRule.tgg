@@ -1,0 +1,28 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule IgnoreCloseApiRule #with Cad2AmePiping
+
+#source { 
+	
+}
+
+#target {
+	model:AMEModel {
+		++-lines -> otherCommand
+	}
+
+	++otherCommand:CloseAPI {
+		
+	}
+}
+
+#correspondence {
+	
+}
+
+#attributeConditions {
+	
+}
+
+

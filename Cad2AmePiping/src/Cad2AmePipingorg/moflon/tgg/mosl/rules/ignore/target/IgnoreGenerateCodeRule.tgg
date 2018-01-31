@@ -1,0 +1,28 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule IgnoreGenerateCodeRule #with Cad2AmePiping
+
+#source { 
+	
+}
+
+#target {
+	model:AMEModel {
+		++-lines -> otherCommand
+	}
+
+	++otherCommand:GenerateCode {
+		
+	}
+}
+
+#correspondence {
+	
+}
+
+#attributeConditions {
+	
+}
+
+

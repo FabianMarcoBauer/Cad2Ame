@@ -1,0 +1,28 @@
+#using Cad2AmePiping.*
+#using AttrCondDefLibrary.*
+
+#rule IgnoreOtherCommandRule #with Cad2AmePiping
+
+#source { 
+	
+}
+
+#target {
+	model:AMEModel {
+		++-lines -> otherCommand
+	}
+
+	++otherCommand:OtherCommand {
+		
+	}
+}
+
+#correspondence {
+	
+}
+
+#attributeConditions {
+	
+}
+
+
